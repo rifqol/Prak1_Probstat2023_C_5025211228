@@ -17,7 +17,7 @@
 # terdapat lebih dari satu percobaan, maka distribusinya termasuk dalam distribusi 
 # binomial, bukan distribusi Bernoulli.Anda dapat menggunakan rumus berikut untuk 
 # menghitung probabilitas sukses (laki-laki) sebanyak k kali dari 10 percobaan: 
-# P(X=k) = (10Ck) 0.488^k (1-0.488)^(10-k)6                                             
+# P(X=k) = (10Ck) 0.488^k (1-0.488)^(10-k)                                             
 
 # 1.b
 # Berapa probabilitas bahwa tepat tiga bayi di antaranya berjenis kelamin lakilaki?
@@ -207,10 +207,7 @@ hist(x, xlab = "X", ylab = "Jumlah", main = "Histogram Chi-Square")
 # Nilai rataan (μ) dan varian (σ²) dari distribusi Chi-Square
 
 # Jawab : 
-mean <- v <- 10
-mean
-variance <- 2 * v
-variance
+D
 
 
 # Nomor 4
